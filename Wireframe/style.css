@@ -45,11 +45,12 @@ text-align: center;
 }
 
 .second-banner{
-  height: 500px;
+  height: 600px;
 }
 
 .half-left{
   height: 100%;
+  text-align: center;
 }
 
 .name{
@@ -60,7 +61,6 @@ text-align: center;
 }
 
 .about-me{
-  padding-top: 5%;
   background-color: #FAE900;
     float: left;
     padding: 1%;
@@ -74,8 +74,7 @@ text-align: center;
 .experiences{
   background-color: #FAE900;
   float: left;
-  padding: 1%;
-  width: 48%;
+  width: 50%;
 }
 
 .skills{
@@ -218,6 +217,7 @@ footer{
     width: 0;
     }
 }
+
 @media screen and (max-width: 480px) {
     .my-projects {
     width: 100%;
