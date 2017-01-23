@@ -6,7 +6,7 @@ li{
 
 body{
     margin : 0%;
-    background: purple;
+    background: #FF1493;
 }
 .align-center{
 text-align: center;
@@ -41,7 +41,7 @@ text-align: center;
 }
 
 .intro-banner{
-  height: 200px;
+  height: 300px;
 }
 
 .second-banner{
@@ -49,20 +49,22 @@ text-align: center;
 }
 
 .half-left{
-  float: left;
-  width: 48%;
-  padding: 1%;
   height: 100%;
 }
 
 .name{
   background-color: #2BF707;
-  padding-bottom: 5%;
+    float: left;
+    padding: 1%;
+    width: 48%;
 }
 
 .about-me{
   padding-top: 5%;
   background-color: #FAE900;
+    float: left;
+    padding: 1%;
+    width: 48%;
 }
 
 .cv{
@@ -71,11 +73,19 @@ text-align: center;
 
 .experiences{
   background-color: #FAE900;
+  float: left;
+  padding: 1%;
+  width: 48%;
+}
+
+.skills{
+  float: right;
+  width: 50%;
 }
 
 .skillbars{
   float: left;
-  width: 100%
+  width: 100%;
 }
 
 .empty-skill {
@@ -83,12 +93,6 @@ text-align: center;
     width: 80%;
     height: 10px;
     background: #FF0000;
-}
-
-@media screen and (max-width: 480px) {
-    .empty-skill {
-    margin-left: 10%
-    }
 }
 
 .full-skill {
@@ -186,5 +190,37 @@ text-align: center;
 }
 
 footer{
-  width: 98%;
+  width: 100%;
+  float: left;
+  background-color: #FAE900;
+}
+
+@media screen and (max-width: 480px) {
+    .empty-skill {
+    margin-left: 10%
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .half-left {
+    width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .second-banner {
+    height: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .empty-space {
+    width: 0;
+    }
+}
+@media screen and (max-width: 480px) {
+    .my-projects {
+    width: 100%;
+    background-color: #FF1493;
+    }
 }
