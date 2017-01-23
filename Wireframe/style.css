@@ -1,0 +1,226 @@
+
+li{
+    list-style-type: none;
+    display: inline;
+}
+
+body{
+    margin : 0%;
+    background: #FF1493;
+}
+.align-center{
+text-align: center;
+}
+
+.mainnav{
+  float: left;
+  width: 100%;
+  background-color: #800000;
+  text-align: center;
+}
+
+.kaas{
+  margin-right: 3%;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background: #808080;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  margin-left: 48%
+}
+
+.intro{
+    float: left;
+    width: 100%;
+    background-color: #800000;
+    text-align: center;
+}
+
+.intro-banner{
+  height: 300px;
+}
+
+.second-banner{
+  height: 600px;
+}
+
+.half-left{
+  height: 100%;
+  text-align: center;
+}
+
+.name{
+  background-color: #2BF707;
+    float: left;
+    padding: 1%;
+    width: 48%;
+}
+
+.about-me{
+  background-color: #FAE900;
+    float: left;
+    padding: 1%;
+    width: 48%;
+}
+
+.cv{
+  font-size: 20px;
+}
+
+.experiences{
+  background-color: #FAE900;
+  float: left;
+  width: 50%;
+}
+
+.skills{
+  float: right;
+  width: 50%;
+}
+
+.skillbars{
+  float: left;
+  width: 100%;
+}
+
+.empty-skill {
+    float: left;
+    width: 80%;
+    height: 10px;
+    background: #FF0000;
+}
+
+.full-skill {
+    float: left;
+    margin-right: 5%;
+    height: 10px;
+    background: #32cd32;
+}
+
+.ten{
+    width: 10%;
+}
+
+.twenty{
+    width: 20%;
+}
+
+.thirty{
+    width: 30%;
+}
+
+.forty{
+    width: 40%;
+}
+
+.fifty{
+    width: 50%;
+}
+
+.sixty{
+    width: 60%;
+}
+
+.zeventy{
+    width: 70%;
+}
+
+.eightty{
+    width: 80%;
+}
+
+.ninety{
+    width: 90%;
+}
+
+.hundred{
+    width: 100%;
+}
+
+.skills{
+  background-color: #2BF707;
+}
+
+.empty-space{
+  width: 65%;
+  float: left;
+  background-color: #800000
+}
+
+.my-projects{
+  width: 35%;
+  float: right;
+  text-align: center;
+  background-color: #FAE900;
+}
+
+.line{
+  width: 80%;
+  height: 0.2%;
+  background-color: #ffffff;
+}
+
+.lenny{
+  width: 40%;
+  margin: 5%;
+  float: left;
+  background-color: #000000;
+}
+
+.contact{
+  width: 100%;
+  float: left;
+  text-align: center;
+  background-color: #2BF707;
+}
+
+.contact-form{
+  width: 70%;
+  margin: 0% 15% 0% 14%;
+}
+
+.pentagons{
+  display: block;
+  float: left;
+}
+
+footer{
+  width: 100%;
+  float: left;
+  background-color: #FAE900;
+}
+
+@media screen and (max-width: 480px) {
+    .empty-skill {
+    margin-left: 10%
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .half-left {
+    width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .second-banner {
+    height: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .empty-space {
+    width: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .my-projects {
+    width: 100%;
+    background-color: #FF1493;
+    }
+}
