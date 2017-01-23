@@ -1,0 +1,190 @@
+
+li{
+    list-style-type: none;
+    display: inline;
+}
+
+body{
+    margin : 0%;
+    background: purple;
+}
+.align-center{
+text-align: center;
+}
+
+.mainnav{
+  float: left;
+  width: 100%;
+  background-color: #800000;
+  text-align: center;
+}
+
+.kaas{
+  margin-right: 3%;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background: #808080;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  margin-left: 48%
+}
+
+.intro{
+    float: left;
+    width: 100%;
+    background-color: #800000;
+    text-align: center;
+}
+
+.intro-banner{
+  height: 200px;
+}
+
+.second-banner{
+  height: 500px;
+}
+
+.half-left{
+  float: left;
+  width: 48%;
+  padding: 1%;
+  height: 100%;
+}
+
+.name{
+  background-color: #2BF707;
+  padding-bottom: 5%;
+}
+
+.about-me{
+  padding-top: 5%;
+  background-color: #FAE900;
+}
+
+.cv{
+  font-size: 20px;
+}
+
+.experiences{
+  background-color: #FAE900;
+}
+
+.skillbars{
+  float: left;
+  width: 100%
+}
+
+.empty-skill {
+    float: left;
+    width: 80%;
+    height: 10px;
+    background: #FF0000;
+}
+
+@media screen and (max-width: 480px) {
+    .empty-skill {
+    margin-left: 10%
+    }
+}
+
+.full-skill {
+    float: left;
+    margin-right: 5%;
+    height: 10px;
+    background: #32cd32;
+}
+
+.ten{
+    width: 10%;
+}
+
+.twenty{
+    width: 20%;
+}
+
+.thirty{
+    width: 30%;
+}
+
+.forty{
+    width: 40%;
+}
+
+.fifty{
+    width: 50%;
+}
+
+.sixty{
+    width: 60%;
+}
+
+.zeventy{
+    width: 70%;
+}
+
+.eightty{
+    width: 80%;
+}
+
+.ninety{
+    width: 90%;
+}
+
+.hundred{
+    width: 100%;
+}
+
+.skills{
+  background-color: #2BF707;
+}
+
+.empty-space{
+  width: 65%;
+  float: left;
+  background-color: #800000
+}
+
+.my-projects{
+  width: 35%;
+  float: right;
+  text-align: center;
+  background-color: #FAE900;
+}
+
+.line{
+  width: 80%;
+  height: 0.2%;
+  background-color: #ffffff;
+}
+
+.lenny{
+  width: 40%;
+  margin: 5%;
+  float: left;
+  background-color: #000000;
+}
+
+.contact{
+  width: 100%;
+  float: left;
+  text-align: center;
+  background-color: #2BF707;
+}
+
+.contact-form{
+  width: 70%;
+  margin: 0% 15% 0% 14%;
+}
+
+.pentagons{
+  display: block;
+  float: left;
+}
+
+footer{
+  width: 98%;
+}
