@@ -19,7 +19,7 @@ text-align: center;
   text-align: center;
 }
 
-.kaas{
+.mainnavedge{
   margin-right: 3%;
 }
 
@@ -30,7 +30,7 @@ text-align: center;
   -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
   border-radius: 50px;
-  margin-left: 48%
+  display: inline-block;
 }
 
 .intro{
@@ -38,6 +38,9 @@ text-align: center;
     width: 100%;
     background-color: #800000;
     text-align: center;
+}
+
+.banner-text{
 }
 
 .intro-banner{
@@ -164,7 +167,7 @@ text-align: center;
   background-color: #ffffff;
 }
 
-.lenny{
+.cat_with_a_hat{
   width: 40%;
   margin: 5%;
   float: left;
@@ -181,11 +184,6 @@ text-align: center;
 .contact-form{
   width: 70%;
   margin: 0% 15% 0% 14%;
-}
-
-.pentagons{
-  display: block;
-  float: left;
 }
 
 footer{
